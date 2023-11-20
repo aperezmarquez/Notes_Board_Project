@@ -1,0 +1,14 @@
+#root {
+  padding: 0.7em;
+  background: url('../src/assets/background.png') no-repeat center center fixed;
+  background-size: cover;
+  width:100%;
+  min-height: 40em;
+}
+
+.app-tittle {
+  font-family: 'Bebas Neue';
+  font-size: 5em;
+
+  color: rgb(77, 64, 51);
+}
