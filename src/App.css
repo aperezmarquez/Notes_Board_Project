@@ -3,7 +3,7 @@
   background: url('../src/assets/background.png') no-repeat center center fixed;
   background-size: cover;
   width:100%;
-  height: 60em;
+  min-height: 60em;
 }
 
 .app-tittle {
