@@ -18,7 +18,9 @@ async function Users() {
     return (
         <div>
             <h1>USERS:</h1>
-            {users.map((user) => <User key={user.id} name={user.first_name} last_name={user.last_name} email={user.email} url={user.avatar}/>)}
+            <div className="grid grid-flow-row sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-max">
+                {users.map((user) => <User key={user.id} name={user.first_name} last_name={user.last_name} email={user.email} url={user.avatar}/>)}
+            </div>
         </div>
     );
 }
