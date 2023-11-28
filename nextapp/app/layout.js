@@ -1,6 +1,13 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from './components/navbar'
+import { Aladin } from "next/font/google" 
+
+const aladin = Aladin({
+    weight: ["400"],
+    styles: ["italic", "normal"],
+    subsets: ["latin"]
+})
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={aladin.className}>
         <Navbar />{children}
       </body>
     </html>
