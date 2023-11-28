@@ -1,4 +1,6 @@
+"use-client"
 import User from "../components/User";
+import Boton from "../components/Boton";
 
 const url = 'https://reqres.in/api/users'
 
@@ -21,6 +23,7 @@ async function Users() {
             <div className="grid grid-flow-row sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-max">
                 {users.map((user) => <User key={user.id} name={user.first_name} last_name={user.last_name} email={user.email} url={user.avatar}/>)}
             </div>
+            <Boton/>
         </div>
     );
 }

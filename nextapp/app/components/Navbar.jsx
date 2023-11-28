@@ -5,6 +5,9 @@ function Navbar() {
         <nav className='bg-slate-600 m-4 p-2'>
           <ul className='flex gap-4'>
             <li>
+              <Link href='http://localhost:3000/tienda'>Shop</Link>
+            </li>
+            <li>
               <Link href='http://localhost:3000/'>Home</Link>
             </li>
             <li>
