@@ -1,4 +1,4 @@
-*THIS IS A SMALL PROJECT USING REACT + VITE*
+#THIS IS A SMALL PROJECT USING REACT + VITE#
 
 In this project I created a web that serves as a note board, where you can organize your work.
 
